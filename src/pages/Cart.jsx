@@ -3,6 +3,7 @@ import { getItem, setItem } from "../services/LocalStoreFuncs";
 import { BsFillCartDashFill } from "react-icons/bs";
 import { ProductsArea } from "../css/styles";
 import { Transforma } from "../components/Transforma";
+import { Header } from "../components/header";
 
 const Cart = () => {
   const [data, setData] = useState(getItem("carrinho") || []);
@@ -15,8 +16,9 @@ const Cart = () => {
   const subTotal = data.reduce((acc, curr) => acc + curr.price, 0);
   return (
     <div>
-      <h1>Cart</h1>
-      <h3>SubTotal: R${Transforma(subTotal)}</h3>
+      <Header />
+      <h1 className="hCart">Cart</h1>
+      <h3 className="sTotal">SubTotal: R${Transforma(subTotal)}</h3>
       <ProductsArea>
         {data.map((e) => (
           <div key={e.id}>

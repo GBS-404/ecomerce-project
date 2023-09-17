@@ -11,9 +11,8 @@ const HeaderArea = styled.div`
   width: auto;
   border-radius: 20px;
   justify-content: center;
-  width: 40%;
+  width: auto;
   align-items: center;
-  margin-left: 27%;
 
   a {
     text-decoration: none;
