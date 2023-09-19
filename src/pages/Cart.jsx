@@ -4,6 +4,7 @@ import { BsFillCartDashFill } from "react-icons/bs";
 import { ProductsArea } from "../css/styles";
 import { Transforma } from "../components/Transforma";
 import { Header } from "../components/header";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const [data, setData] = useState(getItem("carrinho") || []);

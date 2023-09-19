@@ -31,8 +31,8 @@ const HeaderArea = styled.div`
 export const Header = () => {
   return (
     <HeaderArea>
-      <Link to="/">Store</Link>
-      <Link to="/cart">Cart</Link>
+      <Link to="/store">Loja</Link>
+      <Link to="/cart">Carrinho</Link>
     </HeaderArea>
   );
 };
