@@ -7,8 +7,15 @@ const Content = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path="/ecomerce-project" element={<Store />}></Route>
-        <Route path="/" element={<Store />} />
+        <Route
+          exact
+          path="https://gbs-404.github.io/ecomerce-project/"
+          element={<Store />}
+        ></Route>
+        <Route
+          path="https://gbs-404.github.io/ecomerce-project/"
+          element={<Store />}
+        />
         <Route path="/cart" element={<Cart />} />
       </Routes>
     </Router>
