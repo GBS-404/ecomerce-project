@@ -32,7 +32,7 @@ export const Header = () => {
   return (
     <HeaderArea>
       <Link to="https://gbs-404.github.io/ecomerce-project/">Loja</Link>
-      <Link to="/cart">Carrinho</Link>
+      <Link to="/https://gbs-404.github.io/cart">Carrinho</Link>
     </HeaderArea>
   );
 };
