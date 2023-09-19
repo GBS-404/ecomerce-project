@@ -32,7 +32,7 @@ export const Header = () => {
   return (
     <HeaderArea>
       <Link to="/">Loja</Link>
-      <Link to="/cart">Carrinho</Link>
+      <Link to="/cart ">Carrinho</Link>
     </HeaderArea>
   );
 };
