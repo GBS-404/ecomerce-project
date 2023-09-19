@@ -4,6 +4,7 @@ import { BsFillCartDashFill } from "react-icons/bs";
 import { ProductsArea } from "../css/styles";
 import { Transforma } from "../components/Transforma";
 import { Header } from "../components/header";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const [data, setData] = useState(getItem("carrinho") || []);
@@ -17,7 +18,7 @@ const Cart = () => {
   return (
     <div>
       <Header />
-      <h1 className="hCart">Cart</h1>
+      <h1 className="hCart">Carrinho</h1>
       <h3 className="sTotal">SubTotal: R${Transforma(subTotal)}</h3>
       <ProductsArea>
         {data.map((e) => (
