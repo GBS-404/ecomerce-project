@@ -8,6 +8,11 @@ const Content = () => {
     <Router>
       <Routes>
         <Route exact path="/ecomerce-project" element={<Store />}></Route>
+        <Route
+          exact
+          path="https://gbs-404.github.io/ecomerce-project/"
+          element={<Store />}
+        ></Route>
         <Route path="/cart" element={<Cart />} />
       </Routes>
     </Router>
