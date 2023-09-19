@@ -18,7 +18,7 @@ const Cart = () => {
   return (
     <div>
       <Header />
-      <h1 className="hCart">Cart</h1>
+      <h1 className="hCart">Carrinho</h1>
       <h3 className="sTotal">SubTotal: R${Transforma(subTotal)}</h3>
       <ProductsArea>
         {data.map((e) => (
