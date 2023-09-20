@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BsFillCartCheckFill, BsFillCartPlusFill } from "react-icons/bs";
 import { getItem, setItem } from "../services/LocalStoreFuncs";
-import { Link } from "react-router-dom";
 import { ProductsArea } from "../css/styles";
 import { Header } from "../components/header";
 import { Transforma } from "../components/Transforma";
