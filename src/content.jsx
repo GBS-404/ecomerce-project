@@ -7,8 +7,7 @@ const Content = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/ecomerce-project" element={<Store />}></Route>
-        <Route path="/store" element={<Store />} />
+        <Route exact path="/" element={<Store />}></Route>
         <Route path="/cart" element={<Cart />} />
       </Routes>
     </Router>
