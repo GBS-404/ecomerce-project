@@ -8,6 +8,7 @@ export default defineConfig({
     alias: {
       // Adicione um alias para resolver o módulo "react-icons/bs"
       "react-icons/bs": "react-icons/bs",
+      "styled-components": "styled-components",
     },
   },
 });
