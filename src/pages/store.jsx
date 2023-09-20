@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BsFillCartCheckFill, BsFillCartPlusFill } from "react-icons/bs";
 import { getItem, setItem } from "../services/LocalStoreFuncs";
 import { ProductsArea } from "../css/styles";
-import { Header } from "../components/header";
+import { Header } from "../components/Header";
 import { Transforma } from "../components/Transforma";
 const Store = () => {
   const [data, setData] = useState([]);
