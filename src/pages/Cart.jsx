@@ -3,7 +3,7 @@ import { getItem, setItem } from "../services/LocalStoreFuncs";
 import { BsFillCartDashFill } from "react-icons/bs";
 import { ProductsArea } from "../css/styles";
 import { Transforma } from "../components/Transforma";
-import { Header } from "../components/header";
+import { Header } from "../components/Header";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
